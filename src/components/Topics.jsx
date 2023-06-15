@@ -100,7 +100,7 @@ const generateColorClass = (index) => {
         
 
          <button className='flex text-white justify-end absolute right-10 px-5 py-2 mb-7 mr-5 items-center bg-[#fe5829]'>
-           Write <AiOutlineRight className='ml-2 font-bold'/>
+          <a href="http://192.168.1.108:8888/">Write</a>  <AiOutlineRight className='ml-2 font-bold'/>
         </button>
        
         </div>

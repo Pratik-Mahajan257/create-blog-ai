@@ -28,7 +28,7 @@ const AddTopic = ({ isOpen, onClose, onSubmit }) => {
 
   return (
     <Modal
-      className="space-y-5 border-[#fe5829] rounded-lg border-4 bg-white mt-[20px] w-1/2 ml-[400px] p-5 flex flex-col"
+      className="space-y-5 border-[#fe5829] rounded-lg shadow-2xl shadow-[#fe5829] border-4 bg-white mt-[20px] w-1/2 ml-[400px] p-5 flex flex-col"
       isOpen={isOpen}
       onRequestClose={onClose}
     >

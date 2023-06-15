@@ -11,6 +11,7 @@ Generate AI written Blogs
 1. Create a topic with keywords
 2. Generate an blog on that topic
 3. add images to the blog
+4. genrate images through ai
 
 # Tech Used
 
@@ -18,4 +19,4 @@ Generate AI written Blogs
 
 #
 
-https://github.com/Pratik-Mahajan257/create-blog-ai/assets/79212698/feaca278-14c3-4567-b2c7-af60e356e891
+https://github.com/Pratik-Mahajan257/create-blog-ai/assets/79212698/4f0ce538-0ab5-4ed1-8821-271c9009f4fb

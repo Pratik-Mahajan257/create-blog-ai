@@ -25,6 +25,21 @@
             <input type="text" class="form-control" id="blogExpander" name="blogExpander"
               placeholder="Enter the blog title here" class="">
           </div>
+            <div class="mb-3">
+              <label class="font-secondary font-medium text-lg mb-2">Select Tone:</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tone" id="fluent" value="fluent">
+                <label class="form-check-label" for="fluent">Fluent</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tone" id="professional" value="professional">
+                <label class="form-check-label" for="professional">Professional</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tone" id="normal" value="normal" checked>
+                <label class="form-check-label" for="normal">Normal</label>
+              </div>
+            </div>
           <input type="hidden" name="form3" value="form3">
           <button type="submit" class=" px-3 py-2 bg-[#fe5829] font-primary font-semibold  text-white rounded-md ">Generate</button>
          

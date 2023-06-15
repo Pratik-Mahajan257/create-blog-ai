@@ -6,8 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-template/api.js
-/template/api.js
+templates/api.js
+/templates/api.js
 env
 node_modules
 dist

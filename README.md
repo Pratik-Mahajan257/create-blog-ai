@@ -14,5 +14,5 @@ Generate AI written Blogs
       
 #
 
-https://github.com/Pratik-Mahajan257/create-blog-ai/assets/79212698/c7d7d15a-ed7a-47d1-86fb-6cdd18da5471
+https://github.com/Pratik-Mahajan257/create-blog-ai/assets/79212698/909b0f08-aa23-49be-9f4c-503afe07ce25
 

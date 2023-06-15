@@ -36,12 +36,26 @@ def generateBlogSections(prompt1):
 def blogSectionExpander(prompt1):
     response = openai.Completion.create(
       engine="davinci-instruct-beta-v3",
-      prompt="Expand the blog section in to a detailed professional , witty and clever explanation.\n\n {}".format(prompt1),
+      prompt="Expand the blog section in to a detailed professional , witty and clever explanation. {}".format(prompt1),
       temperature=0.7,
-      max_tokens=200,
+      max_tokens=400,
       top_p=1,
       frequency_penalty=0,
       presence_penalty=0
     )
 
     return response['choices'][0]['text']
+
+def generateImage(prompt):
+    response = openai.Completion.create(
+        engine="dalle-mini",
+        prompt=prompt,
+        max_tokens=0,
+        temperature=0.7,
+        top_p=1.0,
+        frequency_penalty=0.0,
+        presence_penalty=0.0
+    )
+
+    image = response.choices[0].image
+    return image

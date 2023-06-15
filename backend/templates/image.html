@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="stylesheet" href="style.css" />
+   
+   
     <title>Image Gererator using OpenAI API</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon12.png') }}">
 </head>
 
 <body class="max-w-4xl mx-auto">
@@ -16,25 +18,23 @@
         <div class="text-center">
             <h1 class="text-4xl font-bold mb-10">Image Generator</h1>
             <p class="text-md lg:text-xl mb-10">
-                This is a simple image generator using
-                <a href="https://openai.com/api/" class="font-semibold">OpenAI API.</a>
-                You can generate images by entering a short description of the image or by entering a keyword.
+                              You can generate images by entering a short description of the image or by entering a keyword.
             </p>
         </div>
-        <div class="bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
+        <div class="bg-orange-100 shadow-2xl  rounded-lg px-8 pt-6 pb-8 mb-4 flex flex-col my-2 ">
             <div class="mb-4 flex flex-col gap-2">
                 <!-- <label for="api" class="text-gray-600 apiDiv">OpenAI API Key</label>
                 <input type="text" id="api" class="input-style apiDiv" placeholder="Enter your OpenAI API key here" /> -->
-                <label for="text" class="text-gray-600">Description or Keyword</label>
-                <textarea id="text" class="input-style"
+                <label for="text" class="font-primary font-semibold">Description or Keyword</label>
+                <textarea id="text" class="border border-black font-secondary pl-2 pt-2"
                     placeholder="Enter a short description of the image or a keyword"></textarea>
-                <label for="sizeSelect" class="text-gray-600">Image Size</label>
-                <select id="sizeSelect" class="input-style"></select>
-                <label for="numImagesSelect" class="text-gray-600">Number of Images</label>
+                <label for="sizeSelect" class="font-primary font-semibold">Image Size</label>
+                <select id="sizeSelect" class=""></select>
+                <label for="numImagesSelect" class="font-primary font-semibold">Number of Images</label>
                 <select id="numImagesSelect" class="input-style"></select>
             </div>
             <div class="mt-2 text-right">
-                <button id="btn" class="button-style">Generate</button>
+                <button id="btn" class="px-3 py-2 bg-[#0f172a] font-primary font-semibold  text-white rounded-md ">Generate</button>
             </div>
             <div id="loading" class="hidden flex justify-center items-center mt-10">
                 <svg class="animate-spin h-10 w-10 text-gray-500" viewBox="0 0 24 24">
@@ -50,8 +50,8 @@
     </div>
     <footer class="text-center mt-10 border-t-2 border-gray-200 py-4" id="checkAuthor">
         <p class="text-sm">
-            Made with ❤️ by
-            <a href="https://github.com/sauravhathi" class="font-semibold">@sauravhathi</a>
+       IMAGE GENERATOR OPEN AI API
+           
         </p>
     </footer>
 </body>
@@ -166,10 +166,7 @@
             });
     }
 
-    const checkAuthor = document.getElementById("checkAuthor");
-    if (checkAuthor.children[0].children[0].textContent !== "@sauravhathi") {
-        window.location.href = "https://github.com/sauravhathi";
-    }
+   
 
     text.addEventListener("input", function () {
         if (text.value === "") {

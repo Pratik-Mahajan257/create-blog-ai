@@ -15,6 +15,8 @@
 </head>
 
 <body>
+  
+
   <div class="container flex flex-col justify-center items-center">
     <h1 class="mt-1 mb-3 font-bold text-2xl font-primary">Generate Your Blog here</h1>
     <div class="">
@@ -43,6 +45,7 @@
           <input type="hidden" name="form3" value="form3">
           <button type="submit" class=" px-3 py-2 bg-[#fe5829] font-primary font-semibold  text-white rounded-md ">Generate</button>
          
+     
         </form>
       </div>
       <div class="mx-auto">
@@ -53,6 +56,11 @@
             <button class="px-3 py-2 hover:text-black bg-[#fe5829] font-primary font-semibold bold text-white rounded-md" onclick="editContent()">Edit Content</button>
         <input type="file" id="imageUploader" accept="image/*" style="display: none;">
         <button class="px-3 py-2 hover:text-black bg-[#fe5829] font-primary font-semibold bold text-white rounded-md" onclick="addImage()">Add Image</button>
+        <a href="http://127.0.0.1:5500/backend/templates/image.html">
+          <button class="px-3 py-2 hover:text-black bg-[#fe5829] font-primary font-semibold bold text-white rounded-md"
+            >GEnerate Image Image</button>
+
+        </a>
           </div>
         </div>
       </div>
@@ -135,6 +143,8 @@
     selection.removeAllRanges();
     selection.addRange(range);
   }
+
+
 
     </script>
 

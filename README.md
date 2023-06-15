@@ -7,7 +7,9 @@
 Generate AI written Blogs
 
 # Features
-1.
+1. Create a topic with keywords
+2. Generate an blog on that topic
+3. add images to the blog
 
 # Tech Used
  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)

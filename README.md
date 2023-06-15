@@ -1,5 +1,5 @@
 <div align="center">
-      <h1> <img src="https://ibb.co/cCyWy1g" width="80px"><br/>Ai-blog-writer</h1>
+      <h1> <img src="https://i.postimg.cc/sf82nyZS/favicon12.png" width="80px"><br/>Ai-blog-writer</h1>
      </div>
 
 
